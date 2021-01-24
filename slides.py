@@ -1,4 +1,6 @@
-Слайд 1:
+import time
+import os
+str1 = """
                                        $$$$$$$$
                                 $$$$$$$$$$$$$$$$$$
                              $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -30,7 +32,8 @@
                             $$$$$$$$$$$$$$$$ $$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Слайд 2:
+"""
+str2 = """ 
                                        $$$$$$$$
                                 $$$$$$$$$$$$$$$$$$
                              $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -62,3 +65,29 @@
                             $$$$$$$$$$$$$$$$ $$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+"""
+
+print(str1)
+time.sleep(1)
+os.system('cls')
+print(str2)
+time.sleep(1)
+os.system('cls')
+print(str1)
+time.sleep(1)
+os.system('cls')
+print(str2)
+time.sleep(1)
+os.system('cls')
+print(str1)
+time.sleep(1)
+os.system('cls')
+print(str2)
+time.sleep(1)
+os.system('cls')
+print(str1)
+time.sleep(1)
+os.system('cls')
+print(str2)
+time.sleep(1)
+os.system('cls')
